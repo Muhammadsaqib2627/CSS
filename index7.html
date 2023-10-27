@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        h1~p {
+            color: crimson;
+            background-color: black;
+            text-align: center;
+            font-size: large;
+            margin: left;
+            margin-top: 50px;
+            padding: 20px;
+            border-block-end-style: groove;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- General Sibling Selector -->
+    <div id="mainid">
+        <h1 class="maincls">General Sibling Selector</h1>
+        <p class="1stp">P one teg</p>
+        <p class="2ndp">P two teg</p>
+        <!-- ye 3rd p ko is leye select ni kar raha Q k ye div k andar ha is leye  -->
+        <div>
+            <p class="3rdp">p three teg</p>
+        </div>
+
+        <p class="4thp">P four teg</p>
+
+    </div>
+
+</body>
+
+</html>
