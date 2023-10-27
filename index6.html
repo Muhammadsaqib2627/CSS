@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        .maindiv h1+p+p {
+            color: blue;
+            text-align: center;
+            margin: left;
+
+            font-style: italic;
+            line-height: 100px;
+            font-weight: bold;
+            background-color: burlywood;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Adjacent Sibling Selector -->
+    <div class="maindiv">
+        <h1 class="dd">Adjacent Sibling Selector</h1>
+        <p class="ss">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, quo.</p>
+        <p class="aa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aut nesciunt ducimus placeat
+            quaerat.</p>
+        <p class="bb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione hic sit, repellendus
+            repellat
+            voluptas?
+        </p>
+        <div class="innerdiv">
+            <h2 class="gg">this is sibling Selector</h2>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
